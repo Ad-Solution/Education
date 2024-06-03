@@ -1,0 +1,60 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+/* Card styles */
+.ad-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.ad-card:hover {
+    transform: scale(1.05);
+    
+}
+
+/* Category, minPrice, maxPrice, and location input styling */
+#category, #minPrice, #maxPrice, #location {
+    margin-bottom: 0; /* Ensures inputs are aligned with the button */
+}
+
+/* Back to top button styling */
+#backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* 20px from the bottom */
+    right: 30px; /* 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #007bff; /* Set background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer/hand icon */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+
+/* Carousel styling */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    justify-content: flex-end;
+}
+
+/* Title styling */
+h2 {
+    margin: 40px 0;
+}
