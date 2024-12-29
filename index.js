@@ -2,13 +2,13 @@
 const resourceData = [
     {
         id: 1,
-        category: 'science',
-        resourceType: 'Course',
-        location: 'Colombo',
-        institution: 'Tech University',
-        description: 'An in-depth course on Physics, covering classical mechanics and quantum physics.',
+        category: '',
+        resourceType: '',
+        location: '',
+        institution: '',
+        description: '',
         image: 'img1.png',
-        postedDate: '2023-03-01'
+        postedDate: ''
     },
     
 ];
